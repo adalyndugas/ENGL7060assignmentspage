@@ -1,40 +1,41 @@
-/* mystyles.css */
+
+   /* mystyles.css */
 
 /* Base Reset */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Comic Neue', cursive, sans-serif;
-    background: linear-gradient(to bottom right, #ff80bf, #ffb6c1); /* soft pink to vibrant pink gradient */
+    background: linear-gradient(to bottom right, #ff7cba, #ffb7c5); /* soft pink to vibrant pink gradient */
     color: #444;
     text-align: center;
 }
 
 /* Headers */
 h1 {
-    color: #ff1493; /* Hot pink for headers */
-    font-size: 3em;
+    color: #ff1493; /* Hot pink for main headers */
+    font-size: 3.5em;
     margin-top: 30px;
-    text-shadow: 3px 3px 5px rgba(255, 105, 180, 0.8); /* pink glow effect */
+    text-shadow: 5px 5px 15px rgba(255, 105, 180, 0.8); /* bold pink glow effect */
 }
 
 h2 {
-    color: #ff4500; /* Bright orange for subheaders */
-    font-size: 2em;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(255, 140, 0, 0.6); /* subtle orange glow */
+    color: #ff6f00; /* Bright orange for subheaders */
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 6px rgba(255, 140, 0, 0.8); /* orange glow effect */
 }
 
 /* Paragraphs */
 p {
-    width: 70%;
+    width: 75%;
     margin: 0 auto 20px;
-    font-size: 1.2em;
-    line-height: 1.6;
-    background-color: rgba(255, 255, 255, 0.8); /* white with a bit more opacity */
-    padding: 15px;
-    border-radius: 15px;
-    color: #ff1493; /* match pink theme */
+    font-size: 1.3em;
+    line-height: 1.8;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly more opaque background */
+    padding: 20px;
+    border-radius: 20px;
+    color: #ff1493; /* matching hot pink for text */
 }
 
 /* Image */
@@ -44,8 +45,8 @@ p {
 
 .orangedress {
     border-radius: 50%;
-    border: 4px dotted #ff1493; /* Pink border */
-    box-shadow: 0px 4px 15px rgba(255, 105, 180, 0.8); /* Pink glow around image */
+    border: 6px dotted #ff1493; /* Hot pink dotted border */
+    box-shadow: 0px 4px 25px rgba(255, 105, 180, 0.9); /* pink shadow to make it pop */
 }
 
 /* Links */
@@ -55,17 +56,17 @@ ul {
 }
 
 li {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 a {
     text-decoration: none;
     color: #ff1493; /* Hot pink links */
     font-weight: bold;
-    padding: 10px 20px;
-    background: #ffb6c1; /* Light pink background */
+    padding: 12px 25px;
+    background: #ffb7c5; /* Light pink background */
     border-radius: 30px;
-    box-shadow: 2px 2px 5px rgba(255, 105, 180, 0.3); /* pink shadow */
+    box-shadow: 3px 3px 8px rgba(255, 105, 180, 0.4); /* pink shadow */
     transition: all 0.3s ease;
 }
 
@@ -73,6 +74,7 @@ a:hover {
     background: #ff80bf; /* Vibrant pink on hover */
     color: #ffffff; /* White text on hover */
     transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(255, 105, 180, 0.6); /* enhanced shadow on hover */
 }
 
 /* Top-right div – for sparkle effect */
@@ -80,9 +82,17 @@ a:hover {
     position: absolute;
     top: 0;
     right: 0;
-    width: 120px;
-    height: 120px;
-    background-image: url('images/sparkles.jpg'); /* Sparkles image */
+    width: 150px;
+    height: 150px;
+    background-image: url('images/sparkles.png'); /* You can add a custom sparkle or glitter image */
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+/* Glammy borders & background effects */
+.container {
+    border: 5px solid #ff1493; /* Add a pink border around sections */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3); /* semi-transparent background */
+    border-radius: 15px;
 }
