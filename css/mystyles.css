@@ -80,7 +80,7 @@ a:hover {
     right: 0;
     width: 100px;
     height: 100px;
-    background-image: url('images/sparkles.png'); /* placeholder if you want decorations */
+    background-image: url('images/sparkles.jpg'); /* placeholder if you want decorations */
     background-size: contain;
     background-repeat: no-repeat;
 }
