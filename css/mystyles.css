@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(200,225,217,1.00);
+    color: rgba(236,242,240,1.00);
+}
+p {background-color: rgb(, 187, 255);color: rgb(250,244,244,1.00);}
+.myname{
+    color: rgb(250,244,244,1.00);
+    font-weight: bolder;
+}
+.Image of Adalyn {
+    position: absolute;  /* Absolute positioning relative to the body */
+    top: 50%;            /* Vertically center it */
+    right: 0;            /* Align it to the right edge */
+    transform: translateY(-50%); /* Correct for the exact center alignment */
+    height: 200px;       /* Set image height */
+    width: 200px;        /* Set image width */
+	/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 25;
+}
+
+header {
+    width: 100%;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
